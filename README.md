@@ -60,3 +60,7 @@ The script parses `sharedprocess.log` files that VS Code writes during extension
 - **Removed** — old version was marked for cleanup (`[-]`)
 
 Duplicate removal entries (caused by multiple profiles or restarts) are deduplicated.
+
+## Contributing
+
+Contributions are welcome! If you find a bug, have a feature request, or want to improve the script, feel free to open an issue or submit a pull request.
