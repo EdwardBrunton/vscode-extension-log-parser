@@ -7,11 +7,12 @@ param(
 
 # Default paths for VS Code-based editors
 $editorPaths = @{
-    "VS Code"          = "$env:APPDATA\Code\logs"
-    "VS Code Insiders" = "$env:APPDATA\Code - Insiders\logs"
-    "Cursor"           = "$env:APPDATA\Cursor\logs"
-    "VSCodium"         = "$env:APPDATA\VSCodium\logs"
-    "Windsurf"         = "$env:APPDATA\Windsurf\logs"
+    "VS Code"            = "$env:APPDATA\Code\logs"
+    "VS Code Insiders"   = "$env:APPDATA\Code - Insiders\logs"
+    "Cursor"             = "$env:APPDATA\Cursor\logs"
+    "VSCodium"           = "$env:APPDATA\VSCodium\logs"
+    "Windsurf"           = "$env:APPDATA\Windsurf\logs"
+    "Azure Data Studio"  = "$env:APPDATA\azuredatastudio\logs"
 }
 
 if ($LogPath) {

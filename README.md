@@ -9,6 +9,7 @@ Parses VS Code shared process logs to show extension install/update/removal hist
 - Cursor
 - VSCodium
 - Windsurf
+- Azure Data Studio
 
 ## Usage
 
